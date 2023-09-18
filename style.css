@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.searchcontainer{
+    background-color: gainsboro;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    position: relative;
+    left: 430px;
+    align-items: center;
+}
+.dojonary{
+    position: absolute;
+    font-size: 25px;
+    left: 30px;
+}
+#searchbar{
+    height: 30px;
+    width: 350px;
+    position: absolute;
+    left: 350px;
+    border: 2px solid;
+}
+.loginbut{
+    background-color: royalblue;
+    height: 35px;
+    width: 70px;
+    position: absolute;
+    left: 890px;
+    color: white;
+    font-size: 17px;
+    border: solid black;
+    box-shadow: 4px 2px 0px 1px black;
+}
+/* All top code is for the navegation bar */
+
+/* All bottom code is for the two ninja's dictionary part */
+.ninjacontainerone{
+    height: 230px;
+    width: 640px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 430px;
+    top: 50px;
+}
+.ninjacontainertwo{
+    height: 230px;
+    width: 640px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 430px;
+    top: 100px;
+}
+.ninjasub{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 45px;
+}
+.noun{
+    position: absolute;
+    left: 42px;
+    top: 65px;
+    font-size: 25px;
+    font-style: italic;
+}
+.plural{
+    position: absolute;
+    left: 15px;
+    top: 105px;
+    font-size: 20px;
+}
+.pluninjas{
+    position: absolute;
+    left: 73px;
+    top: 103px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+}
+.likesbut{
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    height: 40px;
+    width: 100px;
+    border: 3px solid black;
+    background-color: rgb(238, 213, 105);
+    box-shadow: 4px 2px 0px 1px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.desc{
+    position: absolute;
+    left: 210px;
+    top: 90px;
+    font-size: 30px;
+}
+.desctwo{
+    position: absolute;
+    left: 210px;
+    top: 60px;
+    font-size: 30px;
+}
+/* All top code is for the two ninja's dictionary part */
+
+/* All bottom code is for the dojonary defined by you part */
+.dojofined{
+    height: 200px;
+    width: 306px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 1120px;
+    bottom: 418px;
+}
+.doyou{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 33px;
+}
+.you{
+    font-weight: bolder;
+}
+.adefi{
+    position: absolute;
+    background-color: rgb(135, 189, 133);
+    box-shadow: 4px 2px 0px 1px;
+    border: 3px solid black;
+    left: 8px;
+    top: 105px;
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+}
